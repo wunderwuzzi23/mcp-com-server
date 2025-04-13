@@ -8,7 +8,8 @@ Created by Johann Rehberger (@wunderwuzzi23)
 
 This is a very quick first version that serves as a proof-of-concept, but it already works pretty well.
 
-There is only one very basic security feature, which is that you can ALLOWLIST CLSID and/or ProgIDs. Otherwise this is all very dangerous obviously - so use with caution!
+There is only one very basic security feature, which is that you can ALLOWLIST CLSID and/or ProgIDs. 
+**Otherwise this is all very dangerous obviously - so use with caution!**
 
 ## Description
 
@@ -59,6 +60,7 @@ Or configure it with your MCP client application.
 
 This is how your `mcp.json` or `claude_desktop_config.js` should look like:
 
+```
 {
   "mcpServers": {
     "mcp-com-server": {
@@ -69,6 +71,7 @@ This is how your `mcp.json` or `claude_desktop_config.js` should look like:
     }
   }
 }
+```
 
 ## License
 
