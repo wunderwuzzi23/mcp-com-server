@@ -1,15 +1,16 @@
 # mcp-com-server
 
-A Windows COM adapter for the Model Context Protocol (MCP).
-
+An experimental MCP Server that hosts and manages COM servers on Windows. This gives applications that can host MCP servers the power to instantiate and interact with any Windows COM object, like Excel, Word, Outlook, Shell, SAPI, WMI, and many many others.
 Created by Johann Rehberger (@wunderwuzzi23)
 
-## Experimental and Security Caution!
+## Experimental 
 
 This is a very quick first version that serves as a proof-of-concept, but it already works pretty well.
 
-There is only one very basic security feature, which is that you can ALLOWLIST CLSID and/or ProgIDs. 
-**Otherwise this is all very dangerous obviously - so use with caution!**
+## Security Caution!
+
+There is only one very basic security feature, which is that you can ALLOWLIST CLSID and/or ProgIDs (by default all is allowed, so it's yolo mode)
+**This is all very dangerous obviously - so use with caution!**
 
 ## Description
 
