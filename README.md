@@ -1,11 +1,14 @@
 # mcp-com-server
 
-An experimental MCP Server that hosts and manages COM servers on Windows. This gives applications that can host MCP servers the power to instantiate and interact with any Windows COM object, like Excel, Word, Outlook, Shell, SAPI, WMI, and many many others.
+An experimental MCP Server that hosts and manages COM servers on Windows. I built this to learn about MCP - so, it's not a serious project at this time.
+
+**WARNING**
+This gives applications that can host MCP servers the power to instantiate and interact with any Windows COM object, like Excel, Word, Outlook, Shell, SAPI, WMI, and many many others.
 Created by Johann Rehberger (@wunderwuzzi23)
 
 ## Experimental 
 
-This is a very quick first version that serves as a proof-of-concept, but it already works pretty well.
+This is a quick first version that serves as a proof-of-concept, but it works pretty well.
 
 ## Security Caution!
 
